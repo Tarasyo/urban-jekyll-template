@@ -4,6 +4,7 @@ layout: default
 {% assign portfolio = site.pages | where: "path", "portfolio.html" | first %}
 
 <section class="hero diagonal">
+<hr class="line"/>
 	<div class="container">
 		{% if portfolio.heading %}
 		<h2><a href="{{ site.baseurl }}/portfolio/">{{ portfolio.heading }}</a> / {{ page.title | capitalize }}</h2>
